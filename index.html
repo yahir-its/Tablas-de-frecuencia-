@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de Frecuencias - Tarea Estadística</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #bdc3c7;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+        .total {
+            font-weight: bold;
+            background-color: #95a5a6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tablas de Frecuencias </h1>
+
+    <h2>1. Variable Cualitativa: Color favorito</h2>
+    <table>
+        <tr>
+            <th>Categoría</th>
+            <th>Frecuencia Absoluta (fi)</th>
+            <th>Frecuencia Acumulada (Fi)</th>
+            <th>Frecuencia Relativa (hi)</th>
+            <th>Frec. Rel. Acumulada (Hi)</th>
+        </tr>
+        <tr><td>Amarillo</td><td>6</td><td>6</td><td>0.06</td><td>0.06</td></tr>
+        <tr><td>Azul</td><td>10</td><td>16</td><td>0.10</td><td>0.16</td></tr>
+        <tr><td>Blanco</td><td>9</td><td>25</td><td>0.09</td><td>0.25</td></tr>
+        <tr><td>Gris</td><td>11</td><td>36</td><td>0.11</td><td>0.36</td></tr>
+        <tr><td>Morado</td><td>12</td><td>48</td><td>0.12</td><td>0.48</td></tr>
+        <tr><td>Naranja</td><td>11</td><td>59</td><td>0.11</td><td>0.59</td></tr>
+        <tr><td>Negro</td><td>9</td><td>68</td><td>0.09</td><td>0.68</td></tr>
+        <tr><td>Rojo</td><td>7</td><td>75</td><td>0.07</td><td>0.75</td></tr>
+        <tr><td>Rosa</td><td>15</td><td>90</td><td>0.15</td><td>0.90</td></tr>
+        <tr><td>Verde</td><td>10</td><td>100</td><td>0.10</td><td>1.00</td></tr>
+        <tr class="total"><td>Total</td><td>100</td><td>-</td><td>1.00</td><td>-</td></tr>
+    </table>
+
+    <h2>2. Variable Cuantitativa Discreta: Horas de videojuegos por semana</h2>
+    <table>
+        <tr>
+            <th>Valor</th>
+            <th>fi</th>
+            <th>Fi</th>
+            <th>hi</th>
+            <th>Hi</th>
+        </tr>
+        <tr><td>0</td><td>9</td><td>9</td><td>0.09</td><td>0.09</td></tr>
+        <tr><td>1</td><td>7</td><td>16</td><td>0.07</td><td>0.16</td></tr>
+        <tr><td>2</td><td>6</td><td>22</td><td>0.06</td><td>0.22</td></tr>
+        <tr><td>3</td><td>3</td><td>25</td><td>0.03</td><td>0.25</td></tr>
+        <tr><td>4</td><td>8</td><td>33</td><td>0.08</td><td>0.33</td></tr>
+        <tr><td>5</td><td>5</td><td>38</td><td>0.05</td><td>0.38</td></tr>
+        <tr><td>6</td><td>7</td><td>45</td><td>0.07</td><td>0.45</td></tr>
+        <tr><td>7</td><td>2</td><td>47</td><td>0.02</td><td>0.47</td></tr>
+        <tr><td>8</td><td>4</td><td>51</td><td>0.04</td><td>0.51</td></tr>
+        <tr><td>9</td><td>3</td><td>54</td><td>0.03</td><td>0.54</td></tr>
+        <tr><td>10</td><td>4</td><td>58</td><td>0.04</td><td>0.58</td></tr>
+        <tr><td>11</td><td>7</td><td>65</td><td>0.07</td><td>0.65</td></tr>
+        <tr><td>12</td><td>5</td><td>70</td><td>0.05</td><td>0.70</td></tr>
+        <tr><td>13</td><td>2</td><td>72</td><td>0.02</td><td>0.72</td></tr>
+        <tr><td>14</td><td>5</td><td>77</td><td>0.05</td><td>0.77</td></tr>
+        <tr><td>15</td><td>3</td><td>80</td><td>0.03</td><td>0.80</td></tr>
+        <tr><td>16</td><td>8</td><td>88</td><td>0.08</td><td>0.88</td></tr>
+        <tr><td>18</td><td>4</td><td>92</td><td>0.04</td><td>0.92</td></tr>
+        <tr><td>19</td><td>6</td><td>98</td><td>0.06</td><td>0.98</td></tr>
+        <tr><td>20</td><td>2</td><td>100</td><td>0.02</td><td>1.00</td></tr>
+        <tr class="total"><td>Total</td><td>100</td><td>-</td><td>1.00</td><td>-</td></tr>
+    </table>
+
+    <h2>3. Variable Cuantitativa Continua: Estatura en cm</h2>
+    <table>
+        <tr>
+            <th>Intervalo (cm)</th>
+            <th>Marca de clase</th>
+            <th>fi</th>
+            <th>Fi</th>
+            <th>hi</th>
+            <th>Hi</th>
+        </tr>
+        <tr><td>150.0-155.0</td><td>152.5</td><td>5</td><td>5</td><td>0.05</td><td>0.05</td></tr>
+        <tr><td>155.0-160.0</td><td>157.5</td><td>11</td><td>16</td><td>0.11</td><td>0.16</td></tr>
+        <tr><td>160.0-165.0</td><td>162.5</td><td>20</td><td>36</td><td>0.20</td><td>0.36</td></tr>
+        <tr><td>165.0-170.0</td><td>167.5</td><td>11</td><td>47</td><td>0.11</td><td>0.47</td></tr>
+        <tr><td>170.0-175.0</td><td>172.5</td><td>12</td><td>59</td><td>0.12</td><td>0.59</td></tr>
+        <tr><td>175.0-180.0</td><td>177.5</td><td>14</td><td>73</td><td>0.14</td><td>0.73</td></tr>
+        <tr><td>180.0-185.0</td><td>182.5</td><td>10</td><td>83</td><td>0.10</td><td>0.83</td></tr>
+        <tr><td>185.0-190.0</td><td>187.5</td><td>17</td><td>100</td><td>0.17</td><td>1.00</td></tr>
+        <tr class="total"><td>Total</td><td>-</td><td>100</td><td>-</td><td>1.00</td><td>-</td></tr>
+    </table>
+
+    <p style="text-align:center; margin-top:50px;">
+         - mixquiahuala, Hidalgo<br>
+         - Enero 2026
+    </p>
+
+</body>
+</html>
